@@ -9,7 +9,7 @@ export default class ThumbnailExample extends Component {
   }
 
   handleTasbih(){
-    if(this.state.number < 99)
+    if(this.state.number < 100)
     {
       this.setState({
         number: this.state.number+1
